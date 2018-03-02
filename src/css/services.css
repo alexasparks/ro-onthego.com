@@ -61,9 +61,9 @@
   /* font-size: 1.75em; */
 
 #disclaimer {
-  width: 95%;
+  width: 99%;
   margin: auto;
-  text-align: center;
+  text-align: left;
   color: rgb(130, 130, 130);
-  font-size: 1em;
+  font-size: .95em;
 }

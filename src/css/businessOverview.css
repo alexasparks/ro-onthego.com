@@ -1,4 +1,19 @@
 .bus-overview {
-  height: 25vh;
+  height: 35vh;
   background-color: #117775;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.bus-overview h1 {
+  margin: 1em auto 1em auto;
+  font-size: 3em;
+}
+
+.bus-overview p {
+  font-size: 1.25em;
+  width: 75%;
+  margin: 0 auto;
+  text-align: left;
 }

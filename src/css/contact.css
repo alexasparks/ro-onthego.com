@@ -1,5 +1,54 @@
 .contact-page {
-  height: 15vh;
+  height: 20vh;
+  /* height: 65vh; */
   background-color: #A2DADD;
+  color: #117775;
 }
 
+.contact-page p {
+  font-size: 1.25em;
+  color: black;
+}
+
+/* .contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.contact-form h1 {
+  text-align: center;
+}
+
+.contact-form-label {
+  padding: 1em;
+  margin: auto;
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+.contact-form-field {
+  border: none;
+  border-bottom: 2px solid black;
+  height: 2em;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+}
+
+textarea.contact-form-field {
+  height: 5em;
+}
+
+.contact-form-button {
+  width: 6em;
+  height: 3em;
+  margin: 0 auto;
+  border: 2px solid black;
+  font-size: 1rem;
+}
+
+.contact-form-button:hover {
+  background-color: #117775;
+} */

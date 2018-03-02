@@ -55,8 +55,7 @@ let Services = props => {
             </div>
         </div>
         </div>
-        <p id="disclaimer"><em>*Fees are calculated on time and mileage. Subject to the anticipated need, minimums may apply.
-          <br/>
+        <p id="disclaimer"><em>
           Ro on the Go, LLC., and its principal are not licensed healthcare providers. The services provided by Ro on the Go, LLC., do not require a medical license and Ro on the Go, LLC., and its principal will not provide any services requiring a medical license and/or medical certification.</em></p>
     </div>
   )
