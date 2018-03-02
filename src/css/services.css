@@ -60,3 +60,10 @@
 }
   /* font-size: 1.75em; */
 
+#disclaimer {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  color: rgb(130, 130, 130);
+  font-size: 1em;
+}

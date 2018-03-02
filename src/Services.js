@@ -27,17 +27,17 @@ let Services = props => {
             </div>
        </div>
         <div className="column-item">
-          <img src={doctorVisitsIcon} className="services-icon" alt="doctor-visits-icon" />
-            <div className="text">
-              <h2>Doctors Visits</h2>
-              <p>Transportation to any doctor, dentist, chiropractor, optometrist, etc., including medical visits outside of the city.</p>
-            </div>
-        </div>
-        <div className="column-item">
           <img src={mealPrepIcon} className="services-icon" alt="meal-prep-icon" />
             <div className="text">
               <h2>Meal Preparation</h2>
               <p>Meal preparation is something I do to relax; I love to cook. I have experience with a range of alternative diets including gluten-free, dairy-free and diabetic. This service is ideal for clients undergoing surgery, new moms and families, or anyone needing dietary assistance.</p>
+            </div>
+        </div>
+        <div className="column-item">
+          <img src={doctorVisitsIcon} className="services-icon" alt="doctor-visits-icon" />
+            <div className="text">
+              <h2>Doctors Visits</h2>
+              <p>Transportation to any doctor, dentist, chiropractor, optometrist, etc., including medical visits outside of the city.</p>
             </div>
         </div>
         <div className="column-item">
@@ -55,9 +55,9 @@ let Services = props => {
             </div>
         </div>
         </div>
-      {/* <p>Ro on the Go, LLC., and its principal are not licensed healthcare providers. The services provided by Ro on the Go, LLC., do not require a medical license and Ro on the Go, LLC., and its
-  principal will not provide any services requiring a medical license and/or medical certi cation.</p>
-      <p>*Fees are calculated on time and mileage. Subject to the anticipated need, minimums may apply.</p> */}
+        <p id="disclaimer"><em>*Fees are calculated on time and mileage. Subject to the anticipated need, minimums may apply.
+          <br/>
+          Ro on the Go, LLC., and its principal are not licensed healthcare providers. The services provided by Ro on the Go, LLC., do not require a medical license and Ro on the Go, LLC., and its principal will not provide any services requiring a medical license and/or medical certification.</em></p>
     </div>
   )
 }
