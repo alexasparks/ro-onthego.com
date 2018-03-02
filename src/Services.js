@@ -9,7 +9,7 @@ import doctorVisitsIcon from './icons/stethescope.svg'
 
 let Services = props => {
   return(
-    <div id="services-page" className="services-page">
+    <div className="services-page">
       <h1 className="heading">Services</h1>
         <div className="services-text-icons-container">
           <div className="column-item">

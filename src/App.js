@@ -3,8 +3,7 @@ import logo from './logo.svg';
 import { NavLink } from 'react-router-dom'
 import './css/App.css';
 import Navbar from './Navbar'
-import './BusinessOverview'
-import BusinessOverview from './BusinessOverview';
+import BusinessOverview from './BusinessOverview'
 import Services from './Services'
 import About from './About'
 import Contact from './Contact'
@@ -20,8 +19,8 @@ class App extends Component {
         {/* This is where the components should go. */}
         <Navbar />
         <BusinessOverview />
-        <About />
         <Services />
+        <About />
         <Contact />
       </div>
     );

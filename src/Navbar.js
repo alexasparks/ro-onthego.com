@@ -7,7 +7,6 @@ let Navbar = props => {
   return(
     <div className="navbar">
       <img src={logo} alt="logo"/>
-      <NavLink to='#services-page'>text</NavLink>
     </div>
   )
 }
