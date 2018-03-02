@@ -1,0 +1,54 @@
+.services-page {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  /* margin: auto; */
+  height: 100vh;
+}
+
+.heading {
+  width: 100vw;
+  margin: auto;
+}
+
+.services-text-icons-container {
+  /* border: 2px solid green; */
+  display: flex;
+  width: 75%;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.column-item {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  /* border: 2px solid red; */
+  /* justify-content: center; */
+  /* padding: .5em; */
+}
+
+.services-icon {
+  width: 5em;
+  /* border: 1px solid yellow; */
+  margin: auto;
+  /* margin: auto; */
+}
+
+.text {
+  text-align: left;
+  height: 75%;
+  width: 25vw;
+  margin: auto;
+}
+
+/* .text p {
+  font-size: 1.25em;
+} */
+
+.text h2 {
+  text-align: center;
+}
+  /* font-size: 1.75em; */
+
