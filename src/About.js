@@ -1,9 +1,10 @@
 import React from 'react';
 import headshot from './stone-rogene-2016.jpg'
+import './css/about.css'
 
 let About = props => {
   return(
-    <div>
+    <div className="about-page">
       <h1>About Ro (Rogene)</h1>
       <img src={headshot} alt="rogene-headshot" />
       <p>I am a lifelong resident of the Grand Island area with strong personal and professional relationships within the community.

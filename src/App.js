@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import { NavLink } from 'react-router-dom'
-import './App.css';
+import './css/App.css';
 import Navbar from './Navbar'
 import './BusinessOverview'
 import BusinessOverview from './BusinessOverview';
@@ -20,8 +20,8 @@ class App extends Component {
         {/* This is where the components should go. */}
         <Navbar />
         <BusinessOverview />
-        <Services />
         <About />
+        <Services />
         <Contact />
       </div>
     );
