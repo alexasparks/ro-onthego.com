@@ -21,9 +21,9 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1224px) {
+@media screen and (min-width: 768px) and (max-width: 1224px) {
   .bus-overview {
-    height: 30vh;
+    height: 50vh;
     background-color: #117775;
     display: flex;
     flex-direction: column;
@@ -31,13 +31,39 @@
   }
 
   .bus-overview h1 {
-    margin-top: 2.5%;
+    margin-top: 5%;
     margin-bottom: 0%;
-    font-size: 250%;
+    font-size: 200%;
   }
 
   .bus-overview p {
-    font-size: 105%;
+    font-size: 125%;
+    width: 80%;
+    margin: 2.5% auto 2.5% auto;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .bus-overview {
+    height: 55vh;
+    background-color: #117775;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+
+  .bus-overview h1 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150%;
+    width: 75%;
+  }
+
+  .bus-overview p {
+    font-size: 100%;
     width: 80%;
     margin: 2.5% auto 2.5% auto;
     text-align: left;
