@@ -13,6 +13,13 @@ let Services = props => {
       <h1 className="heading">Services</h1>
         <div className="services-text-icons-container">
         <div className="column-item">
+          <img src={doctorVisitsIcon} className="services-icon" alt="doctor-visits-icon" />
+            <div className="text">
+              <h2>Doctors Visits</h2>
+              <p>Transportation to any doctor, dentist, chiropractor, optometrist, etc., including medical visits outside of the city.</p>
+            </div>
+        </div>
+        <div className="column-item">
           <img src={mealPrepIcon} className="services-icon" alt="meal-prep-icon" />
             <div className="text">
               <h2>Meal Preparation</h2>
@@ -24,13 +31,6 @@ let Services = props => {
             <div className="text">
               <h2>Bill Paying</h2>
               <p>Assistance for individuals whose vision or cognition makes it dffcult for them to pay their own bills.</p>
-            </div>
-        </div>
-        <div className="column-item">
-          <img src={doctorVisitsIcon} className="services-icon" alt="doctor-visits-icon" />
-            <div className="text">
-              <h2>Doctors Visits</h2>
-              <p>Transportation to any doctor, dentist, chiropractor, optometrist, etc., including medical visits outside of the city.</p>
             </div>
         </div>
         <div className="column-item">
