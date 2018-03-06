@@ -10,14 +10,15 @@
   .bus-overview h1 {
     /* margin: 1em auto 1em auto; */
     /* margin: 2.5% auto 2.5% auto; */
-    margin: 2.5% auto auto auto;
+    margin-top: 2.5%;
+    margin-bottom: 0%;
     font-size: 250%;
   }
 
   .bus-overview p {
     font-size: 125%;
     width: 80%;
-    margin: 2.5% auto 5% auto;
+    margin: 1% auto 2.5% auto;
     text-align: left;
   }
 }

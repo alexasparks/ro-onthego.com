@@ -11,7 +11,7 @@
 
   .heading {
     width: 100vw;
-    margin: 1% auto 5% auto;
+    margin: 2.5% auto auto auto;
     font-size: 250%;
     color: #117775;
   }
@@ -23,7 +23,7 @@
     width: 100%;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 0 auto;
+    margin: 2.5% auto;
   }
 
   .column-item {

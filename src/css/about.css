@@ -3,31 +3,31 @@
     height: 40vh;
     background-color: #117775;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-flow: row wrap;
   }
 
   .about-page .heading {
     color: white;
-    font-size: 2em;
+    font-size: 150%;
+    margin: 1.5% auto auto auto;
   }
 
   .about-ro {
     display: flex;
     width: 75vw;
-    margin: 0 auto;
+    margin: 2.5% auto;
   }
 
   .about-ro img {
-    height: 15em;
+    height: 12rem;
+    margin: 0 1em;
   }
 
   .about-ro-content {
-    display: flex;
-    flex-direction: column;
     color: white;
-    font-size: 1.5em;
+    font-size: 125%;
     text-align: left;
-    margin: auto;
-    padding: 0 2em;
+    /* margin: 0 auto; */
   }
 }
