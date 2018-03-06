@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1224px) {
+@media screen and (min-width: 768px) and (max-width: 1223px) {
   .bus-overview {
     height: 50vh;
     background-color: #117775;
@@ -31,7 +31,7 @@
   }
 
   .bus-overview h1 {
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 0%;
     font-size: 200%;
   }

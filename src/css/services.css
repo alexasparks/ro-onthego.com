@@ -70,13 +70,13 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1224px) {
+@media screen and (min-width: 768px) and (max-width: 1224px) {
   .services-page {
     display: flex;
     flex-direction: column;
     width: 100vw;
     /* margin: auto; */
-    height: 100vh;
+
     /* margin-bottom: 3em; */
     background-color: white;
   }
@@ -138,7 +138,7 @@
     text-align: center;
     color: rgb(130, 130, 130);
     font-size: .5em;
-    margin-top: 25%;
+    margin-top: 1%;
   }
 }
 
@@ -161,20 +161,12 @@
   }
 
   .services-text-icons-container {
-    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
-    /* flex-flow: row wrap; */
     width: 100vw;
     justify-content: center;
     margin: 2.5% auto;
   }
-
-  /* .column-item {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-  } */
 
   .services-icon {
     width: 6em;

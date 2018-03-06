@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1223px) {
   .contact-page {
     height: 20vh;
     /* height: 65vh; */
@@ -20,11 +20,34 @@
     color: #117775;
   }
 
+  .contact-page h1 {
+    font-size: 150%
+  }
+
   .contact-page p {
-    font-size: 125%;
+    font-size: 100%;
     color: black;
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .contact-page {
+    height: 20vh;
+    /* height: 65vh; */
+    background-color: #A2DADD;
+    color: #117775;
+  }
+
+  .contact-page h1 {
+    font-size: 150%;
+  }
+
+  .contact-page p {
+    font-size: 100%;
+    color: black;
+  }
+}
+
     /* .contact-form {
       display: flex;
       flex-direction: column;

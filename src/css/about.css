@@ -33,12 +33,11 @@
 }
 
 
-@media screen and (min-width: 1024px) and (max-width: 1224px) {
+@media screen and (min-width: 768px) and (max-width: 1223px) {
   .about-page {
     height: 40vh;
     background-color: #117775;
     display: flex;
-    /* flex-direction: column; */
     flex-flow: row wrap;
   }
 
@@ -57,6 +56,37 @@
   .about-ro img {
     height: 12rem;
     margin: 0 1em;
+  }
+
+  .about-ro-content {
+    color: white;
+    font-size: 95%;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .about-page {
+    height: 75vh;
+    background-color: #117775;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-page .heading {
+    color: white;
+    font-size: 150%;
+    margin: 1.5% auto auto auto;
+  }
+
+  .about-ro {
+    /* display: flex; */
+    width: 75vw;
+    margin: auto;
+  }
+
+  .about-ro img {
+    height: 10rem;
   }
 
   .about-ro-content {
