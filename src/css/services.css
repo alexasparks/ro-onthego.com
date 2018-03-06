@@ -1,69 +1,65 @@
-.services-page {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  /* margin: auto; */
-  height: 100vh;
-  /* margin-bottom: 3em; */
-  background-color: white;
-}
+@media screen and (min-width: 1224px){
+  .services-page {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    /* margin: auto; */
+    height: 100vh;
+    /* margin-bottom: 3em; */
+    background-color: white;
+  }
 
-.heading {
-  width: 100vw;
-  /* margin: auto; */
-  font-size: 3em;
-  color: #117775;
-}
+  .heading {
+    width: 100vw;
+    margin: 1% auto 5% auto;
+    font-size: 250%;
+    color: #117775;
+  }
 
-.services-text-icons-container {
-  /* border: 2px solid green; */
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  flex-flow: row wrap;
-  justify-content: center;
-  margin: auto;
-}
+  .services-text-icons-container {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
 
-.column-item {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  margin-bottom: 1em;
-  /* border: 2px solid red; */
-  /* justify-content: center; */
-  /* padding: .5em; */
-}
+  .column-item {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
 
-.services-icon {
-  width: 6em;
-  /* border: 1px solid yellow; */
-  margin: auto;
-  /* margin: auto; */
-}
+  .services-icon {
+    width: 7em;
+    margin: 1% auto 1% auto;
+  }
 
-.text {
-  text-align: left;
-  height: 75%;
-  width: 25vw;
-  margin: auto;
-}
+  .text {
+    text-align: left;
+    height: 75%;
+    width: 25vw;
+    margin: auto;
+  }
 
-.text p {
-  text-align: center;
-}
+  .text p {
+    text-align: center;
+    font-size: 1em;
+  }
 
-.text h2 {
-  text-align: center;
-  color: #117775;
-  margin-bottom: 1px;
-}
-  /* font-size: 1.75em; */
+  .text h2 {
+    text-align: center;
+    color: #117775;
+    font-size: 1.25em;
+  }
 
-#disclaimer {
-  width: 99%;
-  margin: auto;
-  text-align: left;
-  color: rgb(130, 130, 130);
-  font-size: .95em;
+  #disclaimer {
+    width: 99%;
+    text-align: center;
+    color: rgb(130, 130, 130);
+    font-size: .5em;
+    margin-top: 25%;
+  }
 }

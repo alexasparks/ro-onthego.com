@@ -1,9 +1,11 @@
-.navbar {
-  height: 20vh;
-  background-color: #A2DADD;
-}
+@media screen and (min-width: 1224px){
+  .navbar {
+    height: 20vh;
+    background-color: #A2DADD;
+  }
 
-img {
-  height: 10em;
-  margin: 1em;
+  img {
+    height: 9em;
+    margin: 1em;
+  }
 }
