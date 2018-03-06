@@ -70,7 +70,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1224px) {
+@media screen and (min-width: 768px) and (max-width: 1223px) {
   .services-page {
     display: flex;
     flex-direction: column;
