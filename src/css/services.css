@@ -32,6 +32,12 @@
     width: 30%;
   }
 
+  .column-item, .services-text-icons-container {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+  }
+
   .services-icon {
     width: 7em;
     margin: 1% auto 1% auto;
