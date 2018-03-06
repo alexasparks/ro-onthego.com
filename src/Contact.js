@@ -6,7 +6,7 @@ let Contact = props => {
     <div className="contact-page">
       <h1>Contact</h1>
       <p>Phone: 308-380-6503</p>
-      <p>e-mail: rogene@ro-onthego.com</p>
+      <p>e-mail: <a href="mailto:rogene@ro-onthego.com">rogene@ro-onthego.com</a></p>
       {/* <form className="contact-form" onSubmit="submit">
       <label className="contact-form-label">
         name:
