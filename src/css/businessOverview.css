@@ -8,8 +8,6 @@
   }
 
   .bus-overview h1 {
-    /* margin: 1em auto 1em auto; */
-    /* margin: 2.5% auto 2.5% auto; */
     margin-top: 2.5%;
     margin-bottom: 0%;
     font-size: 250%;
@@ -23,7 +21,7 @@
   }
 }
 
-/* @media screen and (min-width: 1224px) and (max-width: 1450px){
+@media screen and (min-width: 1024px) and (max-width: 1224px) {
   .bus-overview {
     height: 30vh;
     background-color: #117775;
@@ -33,17 +31,15 @@
   }
 
   .bus-overview h1 {
-    /* margin: 1em auto 1em auto; */
-    /* margin: 2.5% auto 2.5% auto; */
-    /* margin: 1% auto; */
-    /* font-size: 2.5em;
+    margin-top: 2.5%;
+    margin-bottom: 0%;
+    font-size: 250%;
   }
 
   .bus-overview p {
-    font-size: 1.25em;
-    width: 75%;
-    /* margin: 0 auto auto auto; */
-    /* margin: 0 auto;
-    text-align: left; */
-  /* }
-} */
+    font-size: 105%;
+    width: 80%;
+    margin: 2.5% auto 2.5% auto;
+    text-align: left;
+  }
+}
