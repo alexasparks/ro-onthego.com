@@ -23,7 +23,7 @@
 @media screen and (min-width: 768px) and (max-width: 1223px) {
   .bus-overview {
     background-color: #117775;
-    display: flex;
+    display: -ms-flexbox;
     flex-direction: column;
     color: white;
   }
@@ -45,7 +45,7 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .bus-overview {
     background-color: #117775;
-    display: flex;
+    display: -ms-flexbox;
     flex-direction: column;
     color: white;
   }

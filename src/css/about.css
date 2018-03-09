@@ -2,9 +2,7 @@
   .about-page {
     background-color: #117775;
     display: flex;
-    display: -ms-flexbox;
     flex-direction: column;
-    -ms-flex-direction: column;
     flex-flow: row wrap;
   }
 
@@ -48,7 +46,7 @@
   }
 
   .about-ro {
-    display: flex;
+    display: -ms-flexbox;
     width: 75vw;
     margin: auto;
   }

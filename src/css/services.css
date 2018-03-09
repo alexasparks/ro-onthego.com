@@ -1,9 +1,7 @@
 @media screen and (min-width: 1224px){
   .services-page {
-    display: flex;
     display: -ms-flexbox;
     flex-direction: column;
-    -ms-flex-direction: column;
     width: 100vw;
     /* height: 100vh; */
     background-color: white;
@@ -18,9 +16,7 @@
 
   .services-text-icons-container {
     display: flex;
-    display: -ms-flexbox;
     flex-direction: column;
-    -ms-flex-direction: column;
     flex-flow: row wrap;
     width: 95vw;
     justify-content: center;
@@ -28,18 +24,14 @@
   }
 
   .column-item {
-    display: flex;
     display: -ms-flexbox;
     flex-direction: column;
-    -ms-flex-direction: column;
     width: 30%;
   }
 
   .column-item, .services-text-icons-container {
-    display: flex;
     display: -ms-flexbox;
     flex-direction: column;
-    -ms-flex-direction: column;
     flex-flow: row wrap;
   }
 
