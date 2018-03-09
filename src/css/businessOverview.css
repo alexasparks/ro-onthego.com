@@ -1,7 +1,8 @@
 @media screen and (min-width: 1224px){
   .bus-overview {
     background-color: #117775;
-    display: flex -ms-flexbox;
+    display: flex;
+    display: -ms-flexbox;
     flex-direction: column;
     -ms-flex-direction: column;
     color: white;
