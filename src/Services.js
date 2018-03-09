@@ -30,7 +30,7 @@ let Services = props => {
           <img src={billPayingIcon} className="services-icon" alt="bill-pay-icon" />
             <div className="text">
               <h2>Bill Paying</h2>
-              <p>Assistance for individuals whose vision or cognition makes it dffcult for them to pay their own bills.</p>
+              <p>Assistance for individuals whose vision or cognition makes it difficult for them to pay their own bills.</p>
             </div>
         </div>
         <div className="column-item">
