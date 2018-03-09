@@ -70,7 +70,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1223px) {
   .services-page {
-    display: flex;
+    display: -ms-flexbox;
     flex-direction: column;
     width: 100vw;
     /* margin: auto; */
@@ -88,7 +88,7 @@
 
   .services-text-icons-container {
     /* border: 2px solid green; */
-    display: flex;
+    display: -ms-flexbox;
     flex-direction: column;
     flex-flow: row wrap;
     width: 100vw;
@@ -97,7 +97,7 @@
   }
 
   .column-item {
-    display: flex;
+    display: -ms-flexbox;
     flex-direction: column;
     width: 30%;
   }
