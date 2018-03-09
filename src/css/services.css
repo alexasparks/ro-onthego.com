@@ -1,7 +1,9 @@
 @media screen and (min-width: 1224px){
   .services-page {
     display: flex;
+    display: -ms-flexbox;
     flex-direction: column;
+    -ms-flex-direction: column;
     width: 100vw;
     /* height: 100vh; */
     background-color: white;
@@ -9,14 +11,16 @@
 
   .heading {
     width: 100vw;
-    margin: 2.5% auto auto auto;
+    margin: 1.5% auto auto auto;
     font-size: 250%;
     color: #117775;
   }
 
   .services-text-icons-container {
     display: flex;
+    display: -ms-flexbox;
     flex-direction: column;
+    -ms-flex-direction: column;
     flex-flow: row wrap;
     width: 95vw;
     justify-content: center;
@@ -25,19 +29,23 @@
 
   .column-item {
     display: flex;
+    display: -ms-flexbox;
     flex-direction: column;
+    -ms-flex-direction: column;
     width: 30%;
   }
 
   .column-item, .services-text-icons-container {
     display: flex;
+    display: -ms-flexbox;
     flex-direction: column;
+    -ms-flex-direction: column;
     flex-flow: row wrap;
   }
 
   .services-icon {
     width: 7em;
-    margin: 1% auto 1% auto;
+    margin: .5% auto 1% auto;
   }
 
   .text {
@@ -56,6 +64,7 @@
     text-align: center;
     color: #117775;
     font-size: 1.25em;
+    margin: 1.5%;
   }
 
   #disclaimer {
@@ -63,7 +72,7 @@
     text-align: center;
     color: rgb(130, 130, 130);
     font-size: .5em;
-    margin-top: 10%;
+    margin-top: 2.5%;
   }
 }
 
